@@ -1,0 +1,7 @@
+escreva "Informe um número inteiro"
+var n1 := leia_inteiro
+escreva "O primeiro inteiro informado foi {n1}"
+
+escreva "Informe outro número inteiro"
+var n2 := leia_inteiro
+escreva "O segundo inteiro informado foi {n2}"
