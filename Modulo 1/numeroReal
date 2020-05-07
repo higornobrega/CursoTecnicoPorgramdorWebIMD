@@ -1,0 +1,9 @@
+escreva "Digite um número Real: "
+var n1 := leia_numero
+escreva "O número digitado foi {n1}"
+
+escreva "Digite outro numero Real: "
+
+var n2 := leia_numero
+
+escreva "O numero digitado foi {n2}"
