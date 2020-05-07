@@ -1,0 +1,7 @@
+escreva "Escreva a primeira Sequencia de Caractere"
+var p1:= leia_texto
+escreva "A primeira Sequencia de Caractere escrito foi {p1}"
+
+escreva "Escreva a segunda Sequencia de Caractere: "
+var p2 := leia_texto
+escreva "A segunda Sequencia de Caractere foi {p2}"
