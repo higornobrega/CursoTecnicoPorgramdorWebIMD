@@ -1,0 +1,7 @@
+var n := leia_inteiro
+se n < 100 então
+	n = n +100
+senão
+	n = n - 100
+fim
+imprima "{n}"
