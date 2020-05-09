@@ -1,0 +1,7 @@
+var n:=leia_inteiro
+ se n mod 2 <> 0 então
+ 	n=n+1
+fim
+imprima "{n}"
+ 	
+s
