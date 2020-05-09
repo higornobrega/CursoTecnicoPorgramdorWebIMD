@@ -1,0 +1,6 @@
+escreva "Digite um número: "
+var n := leia_numero
+
+se n > 0 então
+    escreva "Número {n} é Positivo"
+fim
