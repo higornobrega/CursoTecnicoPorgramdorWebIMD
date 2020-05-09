@@ -3,5 +3,3 @@ var n:=leia_inteiro
  	n=n+1
 fim
 imprima "{n}"
- 	
-s
