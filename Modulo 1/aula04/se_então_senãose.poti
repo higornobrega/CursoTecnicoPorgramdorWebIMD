@@ -1,0 +1,22 @@
+escreva "Digite a primeira nota:"
+var n1 := leia_numero
+escreva "Digite a segunda nota:"
+var n2 := leia_numero
+escreva "Digite a terceira nota:"
+var n3 := leia_numero
+
+var media := (n1+n2+n3)/3
+
+se media >= 7 então
+	escreva "Aluno aprovado por média."
+senãose media >= 5 então
+	se n1 >= 3 |e| n2 >= 3 |e| n3 >= 3 então
+		escreva "Aluno aprovado."
+	senão
+		escreva "Aluno deverá fazer a reposição."
+	fim
+senãose media >= 3 então
+	escreva "Aluno em recuperação."
+senão
+	escreva "Aluno reprovado por média."
+fim

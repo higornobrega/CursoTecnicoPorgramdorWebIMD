@@ -1,0 +1,18 @@
+var peso := leia_inteiro
+var altura := leia_numero
+var imc := peso/(altura*altura)
+se imc <17 então
+	imprima "Muito abaixo do peso"
+ senãose imc >=17 |e| imc <= 18.49 então
+ 	imprima "Abaixo do peso"
+  senãose imc >18.49 |e| imc <= 24.99 então
+ 	imprima "Peso normal"
+ senãose imc >= 25 |e| imc <= 29.99 então
+ 	imprima "Acima do peso"
+ senãose imc >= 30 |e| imc <= 34.99 então
+ 	imprima "Obesidade I"
+ senãose imc >= 35 |e| imc <= 39.99 então
+ 	imprima "Obesidade II (severa)"
+ senão
+ 	imprima "Obesidade III (mórbida)"
+ fim
