@@ -1,0 +1,8 @@
+escreva "Escreva um número inteiro:"
+var x := leia_inteiro
+escolha x
+    caso 1 => escreva "Um"                  # se x == 1
+    caso 2 => escreva "Dois"                # se x <> 1 e x == 2
+    caso 3 => escreva "Três"                # se x <> 1 e x <> 2 e x == 3
+    caso_  => escreva "Outro valor"    # se x <> 1 e x <> 2 e x <> 3
+fim
