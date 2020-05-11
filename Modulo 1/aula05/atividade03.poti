@@ -1,0 +1,11 @@
+#Multiplicação!
+#Construa um algoritmo que receberá 3 números inteiros (X, Y e Z) e que, em seguida, realizará a multiplicação desses números. Ao final, escreva o resultado (R) obtido no seguinte formato:
+
+#O resultado da multiplicação de X*Y*Z é R
+
+var x := leia_inteiro
+var y := leia_inteiro
+var z := leia_inteiro
+var r := x*y*z
+
+escreva "O resultado da multiplicação de {x}*{y}*{z} é {r}"
