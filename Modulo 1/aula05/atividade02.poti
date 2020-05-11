@@ -1,0 +1,9 @@
+#Subtração!
+#Construa um algoritmo que receberá 2 números inteiros e fará a subtração desses números. Ao final, faz a impressão do resultado obtido.
+
+var n1 := leia_inteiro
+var n2 := leia_inteiro
+
+var subtracao := n1 - n2
+
+imprima "{subtracao}"
