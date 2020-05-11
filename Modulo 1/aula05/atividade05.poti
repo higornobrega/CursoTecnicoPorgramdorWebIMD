@@ -1,0 +1,13 @@
+#Construa um algoritmo que receberá 3 números reais (X, Y e Z). Em seguida, realize o seguinte cálculo:
+
+#w=X∗Y/Z
+#O primeiro número (X) deverá multiplicar o segundo (Y), e o resultado dessa multiplicação deverá ser dividido pelo terceiro número (Z). Ao final, escreva o resultado obtido no seguinte formato:
+
+#O resultado da expressão é w
+
+var x := leia_numero
+var y := leia_numero
+var z := leia_numero
+var w := (x*y)/z
+
+escreva "O resultado da expressão é {w}"
