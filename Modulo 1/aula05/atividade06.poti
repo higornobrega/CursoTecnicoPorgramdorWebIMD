@@ -1,0 +1,9 @@
+#Multiplicação e Divisão 3!
+#Construa um algoritmo que receberá 3 números reais (ponto flutuante). Em seguida, calcule a média entre esses três números. Ao final, realize apenas a impressão do resultado obtido.
+
+var x := leia_numero
+var y := leia_numero
+var z := leia_numero
+var w := (x+y+z)/3
+
+imprima "{w}"
