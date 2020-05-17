@@ -1,0 +1,6 @@
+# Exemplo com aninhamento de para
+para multiplicador de 1 até 4 faça
+	para multiplicando de 1 até 3 faça             # escreve a tabuada {1..4} x {1..3}
+		escreva "{multiplicador} * {multiplicando} = {multiplicador * multiplicando}"
+	fim
+fim
