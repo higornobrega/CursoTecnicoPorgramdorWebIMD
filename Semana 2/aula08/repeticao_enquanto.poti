@@ -1,0 +1,16 @@
+var i := 1
+var j := 1
+enquanto i<= 5 faça
+	escreva " i = {i}"
+    i := i + 1
+
+    j := 1
+    enquanto j<= 10 faça
+    	imprima " j = {j}"
+    	j := j + 1
+	fim
+
+	escreva "" # Inserindo uma quebra de linha
+	escreva "" # Inserindo outra quebra de linha
+
+fim
