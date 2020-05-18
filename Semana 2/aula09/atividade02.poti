@@ -1,0 +1,10 @@
+var n := 1
+var maior := 0
+
+enquanto n <> 0 faça
+    n := leia_inteiro
+    enquanto n > maior faça
+        maior := n
+    fim
+fim
+ imprima "{maior}"
