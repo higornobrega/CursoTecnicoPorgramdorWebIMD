@@ -1,7 +1,7 @@
-/*Cálculo da Média com Validação de Entrada
-No processo de desenvolvimento de programas é necessário implementar os algoritmos para que estes verifiquem se os valores informados pelo usuário são válidos. Por exemplo: em um programa de calcular a média de um aluno, as notas possuem valores de 0.0 a 10.0; qualquer valor abaixo de 0.0 ou acima de 10.0 são inválidos nessa situação.
+#Cálculo da Média com Validação de Entrada
+#No processo de desenvolvimento de programas é necessário implementar os algoritmos para que estes verifiquem se os valores informados pelo usuário são válidos. Por exemplo: em um programa de calcular a média de um aluno, as notas possuem valores de 0.0 a 10.0; qualquer valor abaixo de 0.0 ou acima de 10.0 são inválidos nessa situação.
 
-Pronto para um novo desafio? Vamos lá! Você deverá construir um programa que receba 2 notas válidas (cujo valor mínimo é 0.0 e o máximo é 10.0). Caso um valor inválido seja fornecido, o programa deve escrever a mensagem Nota com valor inválido! e aguardar a entrada de um novo valor. Essa validação deverá ser repetida até que sejam informadas 2 notas válidas. Quando o programa receber as 2 notas válidas, deverá calcular a média aritmética dos valores e escreve-la.*/
+#Pronto para um novo desafio? Vamos lá! Você deverá construir um programa que receba 2 notas válidas (cujo valor mínimo é 0.0 e o máximo é 10.0). Caso um valor inválido seja fornecido, o programa deve escrever a mensagem Nota com valor inválido! e aguardar a entrada de um novo valor. Essa validação deverá ser repetida até que sejam informadas 2 notas válidas. Quando o programa receber as 2 notas válidas, deverá calcular a média aritmética dos valores e escreve-la.*/
 
 var n1 := leia_numero
 enquanto n1 > 10.0 |ou| n1 < 0.0 faça
