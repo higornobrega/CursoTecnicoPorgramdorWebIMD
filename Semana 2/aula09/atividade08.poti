@@ -1,0 +1,18 @@
+#Caça aos primos
+#Construa um programa que receba um número e que verifique se ele é primo. Relembrando: números primos são divisíveis apenas por 1 e por ele mesmo.
+
+#Se o número recebido pelo programa for primo, o algoritmo deve imprimir número é primo. Caso contrário, a mensagem será: número não é primo.
+
+var n:= leia_inteiro
+var aux := 0
+
+para i de 1 até n passo 1 faça
+	se n mod i == 0 então
+		aux := aux + 1
+    fim
+fim
+se aux > 2 então
+	imprima "número não é primo"
+senão
+	imprima "número é primo"
+fim
