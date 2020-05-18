@@ -1,0 +1,19 @@
+#Número Perfeito
+#Construa um programa que receba um número inteiro e que verifique se ele é um número perfeito. Caso o número seja perfeito, o programa deve imprimir "é um número perfeito". Caso contrário, a mensagem "não é um número perfeito" deve ser impressa.
+
+
+var n := leia_inteiro
+var aux:= 0
+para i de 1 até n-1 passo 1 faça
+	se n mod i == 0 então
+    	aux = aux + i
+    fim
+fim
+
+se aux == n então 
+	imprima "é um número perfeito"
+senão
+	imprima "não é um número perfeito"
+fim
+
+
