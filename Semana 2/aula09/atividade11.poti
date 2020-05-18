@@ -1,0 +1,38 @@
+#Soma de N termos pares/ímpares
+#Você construirá um programa que receba 2 números. O primeiro representará a quantidade de números que serão somados e indicará se os números serão pares ou os ímpares. Já o segundo, representará o primeiro termo da sequência que será somada. O seu programa deve verificar se o primeiro termo é par ou ímpar para, então, realizar a soma corretamente. Se o primeiro termo for par, o programa soma os números pares; se o primeiro termo for ímpar, a soma será dos números ímpares. Ao final, imprima apenas o resultado da soma.
+
+#Exemplo 1: para a entrada 4 e 5, o programa somará 4 termos pares a partir do número 5, portanto, a soma será 6+8+10+12.
+
+#Exemplo 2: para a entrada 5 e 11, o programa somará 5 termos ímpares a partir do número 11, portanto, a soma será 11+13+15+17+19.
+
+var n1:=leia_inteiro
+var n2:=leia_inteiro
+
+se n1 mod 2 ==0 então
+	var aux:= 0
+     var nn2:= 0
+     var res:=0
+	se n2 mod 2 <> 0 então 
+    	n2 := n2 + 1
+    fim
+     enquanto n1 <> aux faça     
+                 n2 = n2 +nn2
+                 res := res +n2
+                 aux := aux + 1
+                 nn2 := 2
+	fim  	
+senão
+	var aux:= 0
+     var nn2:= 0
+     var res:=0
+	se n2 mod 2 == 0 então 
+    	n2 := n2 + 1
+    fim
+     enquanto n1 <> aux faça     
+                 n2 = n2 +nn2
+                 res := res +n2
+                 aux := aux + 1
+                 nn2 := 2
+	fim  	
+	fim
+    imprima res
